@@ -7,7 +7,7 @@ const Header = () => {
 	return (
 		<div className='flex flex-col w-[95%] mx-auto mt-3'>
 			<div className='flex justify-between items-center h-22 p-4 rounded-2xl bg-white shadow-md'>
-				<p className='text-4xl font-bold text-black'>Название</p>
+				<p className='text-4xl font-bold text-black'>Дари добро</p>
 				<div className='flex items-center gap-5 md:gap-10 text-black '>
 					<p
 						className='hover:underline cursor-pointer'

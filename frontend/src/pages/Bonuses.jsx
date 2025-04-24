@@ -9,13 +9,30 @@ import { useNavigate } from 'react-router-dom'
 const Bonuses = () => {
 	const [isOpen, setIsOpen] = useState(false)
 	const events = [
-		{ name: 'бонус' },
-		{ name: 'бонус' },
-		{ name: 'бонус' },
-		{ name: 'бонус' },
-		{ name: 'бонус' },
-		{ name: 'бонус' },
-		{ name: 'бонус' },
+		{
+			name: 'бонус',
+			img_path: '',
+		},
+		{
+			name: 'бонус',
+			img_path: '',
+		},
+		{
+			name: 'бонус',
+			img_path: '',
+		},
+		{
+			name: 'бонус',
+			img_path: '',
+		},
+		{
+			name: 'бонус',
+			img_path: '',
+		},
+		{
+			name: 'бонус',
+			img_path: '',
+		},
 	]
 
 	const role = 2
@@ -114,11 +131,7 @@ const Bonuses = () => {
 						animate={{ opacity: 1, y: 0 }}
 						transition={{ duration: 0.4, delay: index * 0.1 }}
 					>
-						<EventCard
-							name={event.name}
-							isPurple={event?.isPurple ?? true}
-							description='Описание бонуса от партнёра'
-						/>
+						<EventCard name={event.name} img_path={event.img_path} />
 					</motion.div>
 				))}
 			</div>
