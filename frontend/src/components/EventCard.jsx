@@ -1,7 +1,7 @@
 const EventCard = ({ name }) => {
 	return (
 		<div
-			className={`flex flex-col bg-white rounded-2xl shadow-lg w-full h-full`}
+			className={`flex flex-col bg-white rounded-2xl shadow-md w-full h-full`}
 		>
 			<div className='flex flex-col justify-between items-center p-4'>
 				<img

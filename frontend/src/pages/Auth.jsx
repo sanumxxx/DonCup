@@ -201,7 +201,7 @@ const Auth = () => {
 					</div>
 				</div>
 				<img
-					src='https://i.pinimg.com/736x/19/2d/9c/192d9c559937f26342667987bdbec550.jpg'
+					src='./Free Vector _ Save the planet concept illustration.jpg'
 					alt=''
 					className='w-1/2 h-full object-cover rounded-lg hidden lg:block'
 				/>
