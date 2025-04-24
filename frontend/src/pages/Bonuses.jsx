@@ -18,7 +18,7 @@ const Bonuses = () => {
 		{ name: 'бонус' },
 	]
 
-	const role = 2
+	const role = 1
 
 	const handleClick = () => {
 		setIsOpen(true)
@@ -37,7 +37,7 @@ const Bonuses = () => {
 				<div className='flex flex-col w-4/5 mx-auto mt-10 bg-[#22222E] rounded-4xl z-0'>
 					<div className='flex h-64 p-4'>
 						<p className='text-center w-full pixelify text-white text-4xl'>
-							Мероприятия
+							Бонусы
 						</p>
 					</div>
 				</div>
