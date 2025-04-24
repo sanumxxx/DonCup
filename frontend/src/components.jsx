@@ -8,8 +8,8 @@ const CustomButton = ({ placeholder, handleClick, disabled }) => {
 			className={`relative rounded-lg h-10 px-3 transition-all overflow-hidden
         ${
 					disabled
-						? 'bg-[#444A58] text-[#B0B5C1] cursor-not-allowed'
-						: 'bg-[#FC3000] text-white hover:scale-[100.5%] active:scale-[99.5%]'
+						? 'bg-[#F5F5F5] text-[#C0C0C0] cursor-not-allowed'
+						: 'bg-[#7CDE84] text-white hover:shadow-lg hover:shadow-[#7CDE8475] active:bg-[#9ADEC2]'
 				}
       `}
 		>
@@ -27,7 +27,7 @@ const InputText = ({ placeholder, type, value, onChange }) => {
 			type={type}
 			value={value}
 			onChange={onChange}
-			className='px-2 rounded-lg bg-[#444A58] text-[#B0B5C1] border-1 border-[#555C69] h-10 placeholder-[#B0B5C1]'
+			className='px-2 rounded-lg bg-white border-1 border-[#efefef] h-10  placeholder-gray-400'
 			placeholder={placeholder}
 		/>
 	)

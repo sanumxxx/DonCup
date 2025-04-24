@@ -18,9 +18,8 @@ const Auth = () => {
 	const [passwordError, setPasswordError] = useState(false)
 
 	const [roles] = useState([
-		{ id: 1, value: 'sportsman', label: 'Спортсмен' },
-		{ id: 2, value: 'sponsor', label: 'Организатор' },
-		{ id: 3, value: 'region', label: 'Регион' },
+		{ id: 1, value: 'sportsman', label: 'Волонтер' },
+		{ id: 2, value: 'sponsor', label: 'Партнер' },
 	])
 
 	useEffect(() => {
@@ -116,9 +115,9 @@ const Auth = () => {
 
 	return (
 		<div className='h-screen flex items-center'>
-			<div className='bg-[#22222E] rounded-2xl flex justify-between items-center p-4 shadow-2xl w-2/3 mx-auto gap-3'>
+			<div className='bg-[#fff] rounded-2xl flex justify-between items-center p-4 shadow-2xl w-2/3 mx-auto gap-3'>
 				<div className='w-full xl:w-1/2 flex flex-col items-center justify-center'>
-					<h1 className='mb-5 text-4xl font-bold text-[#FC3000]'>
+					<h1 className='mb-5 text-4xl font-bold text-[#7ECDF7]'>
 						{isRegister ? 'Регистрация' : 'Авторизация'}
 					</h1>
 					<div className='flex flex-col gap-3 w-4/5'>
@@ -150,7 +149,7 @@ const Auth = () => {
 								</p>
 							)}
 							{isRegister && (
-								<p className='text-xs text-center text-[#ffffff75] font-thin'>
+								<p className='text-xs text-center text-[#00000075] font-thin'>
 									Пароль должен содержать цифры и заглавные буквы
 								</p>
 							)}
@@ -162,8 +161,8 @@ const Auth = () => {
 									<div className='flex justify-between gap-1'>
 										{roles.map(role => {
 											const isSelected = formData.role_id === role.id
-											const baseColor = 'bg-[#F1C9FE] text-[#D559FD]'
-											const grayColor = 'bg-[#444A58] text-[#B0B5C1]'
+											const baseColor = 'bg-[#DDF6FD] text-[#7ECDF7]'
+											const grayColor = 'bg-[#F5F5F5] text-[#C0C0C0]'
 
 											return (
 												<button
@@ -193,17 +192,11 @@ const Auth = () => {
 								setIsRegister(prev => !prev)
 								setPasswordError(false)
 							}}
-							className='text-white hover:underline font-thin'
+							className='text-black hover:underline font-thin'
 						>
 							{isRegister
 								? 'У меня уже есть аккаунт, войти?'
 								: 'У меня еще нет аккаунта, создать?'}
-						</button>
-						<button
-							onClick={handleLogout}
-							className='text-red-400 hover:underline text-xs mt-2'
-						>
-							Выйти из аккаунта
 						</button>
 					</div>
 				</div>
