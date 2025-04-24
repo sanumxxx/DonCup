@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method='POST' enctype=multipart/form-data>
+        <div id="js-dragzone" class="border-2 border-dashed bg-amber-200/20 w-100 h-50"></div>
+        <input id="js-fileinput" type="file" name="CSV">
+        <script>
+           zone = document.getElementById('js-dragzone')
+           input = document.getElementById('js-fileinput')
+           zone.addEventListener('dragover', e => {
+              e.preventDefault();
+              zone.classList.add('bg-emerald-200/100');
+           });
+           zone.addEventListener('drop', e => {
+              e.preventDefault();
+              zone.classList.remove('bg-emerald-200/100');
+              input.files = e.dataTransfer.files;
+           });
+        </script>
+     
+        <input type='submit'>
+     </form>
+</body>
+</html>
