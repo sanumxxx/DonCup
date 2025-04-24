@@ -13,63 +13,63 @@ const Partners = () => {
 		{
 			id: 1,
 			logo_url:
-				'https://upload.wikimedia.org/wikipedia/commons/6/6e/Vkusno_I_Tochka_symbol.svg',
+				'https://avatars.mds.yandex.net/get-altay/14296560/2a000001935e30682a0f2b10a87930a98e21/orig',
 			name: 'Вкусно — и точка',
 			bonuses: 2,
 		},
 		{
 			id: 2,
 			logo_url:
-				'https://upload.wikimedia.org/wikipedia/commons/3/3d/Magnit_logo.svg',
+				'https://msk.1mf.ru/upload/iblock/e54/d06lmq7xwsb02syncv6vuybwqak4aaym/%D0%9E%D1%84%D0%B8%D1%81%20%D0%9C%D0%B0%D0%B3%D0%BD%D0%B8%D1%82.jpg',
 			name: 'Магнит',
 			bonuses: 3,
 		},
 		{
 			id: 3,
 			logo_url:
-				'https://upload.wikimedia.org/wikipedia/commons/6/6f/Pyaterochka_2020.svg',
+				'https://avatars.mds.yandex.net/i?id=c87f285cebd89c0bd3bcb34bdc72a1b7011dbb1c-4825378-images-thumbs&n=13',
 			name: 'Пятёрочка',
 			bonuses: 1,
 		},
 		{
 			id: 4,
 			logo_url:
-				'https://upload.wikimedia.org/wikipedia/commons/4/4e/Yandex_Go_logo_2024.svg',
+				'https://frankfurt.apollo.olxcdn.com/v1/files/n8lm1y4od1vp-UZ/image;s=840x630',
 			name: 'Яндекс Go',
 			bonuses: 4,
 		},
 		{
 			id: 5,
 			logo_url:
-				'https://upload.wikimedia.org/wikipedia/commons/5/5e/Sbermarket_logo.png',
+				'https://avatars.mds.yandex.net/i?id=2146f58d5e38e50cdc927470595c303d_l-4956094-images-thumbs&n=13',
 			name: 'СберМаркет',
 			bonuses: 2,
 		},
 		{
 			id: 6,
 			logo_url:
-				'https://upload.wikimedia.org/wikipedia/commons/2/2d/OZON_2019.svg',
+				'https://avatars.mds.yandex.net/i?id=156d8cffdc174838152bf77507e36968_l-5714596-images-thumbs&n=13',
 			name: 'OZON',
 			bonuses: 5,
 		},
 		{
 			id: 7,
 			logo_url:
-				'https://upload.wikimedia.org/wikipedia/commons/0/0c/Wildberries_Logo.png',
+				'https://avatars.mds.yandex.net/i?id=be0f99f8c9e1b85f6f9fde57936f20905b3ceb2a-8970800-images-thumbs&n=13',
 			name: 'Wildberries',
 			bonuses: 4,
 		},
 		{
 			id: 8,
 			logo_url:
-				'https://upload.wikimedia.org/wikipedia/commons/9/9e/DNS_Logo.svg',
+				'https://ichip.ru/images/cache/2022/12/5/q90_668992_99329b906b647f5a60547a5fe.png',
 			name: 'DNS',
 			bonuses: 3,
 		},
 		{
 			id: 9,
 			logo_url:
-				'https://upload.wikimedia.org/wikipedia/commons/3/3c/Mvideo_logo_2023.png',
+				'https://80.img.avito.st/image/1/1.elYBWLa41r838RS6eWFgRRD61Lm_-VS3d_zUvbHx3rW3.Jw3j0S0iB9uM9Z8J9eHaqONkbrvjhyHkOO9HXukZw0Q',
 			name: 'М.Видео',
 			bonuses: 3,
 		},
@@ -84,7 +84,7 @@ const Partners = () => {
 		{
 			id: 11,
 			logo_url:
-				'https://upload.wikimedia.org/wikipedia/commons/4/4f/Sberbank_Logo.svg',
+				'https://avatars.mds.yandex.net/i?id=b1c7c5e810a870d1ef91f44c390b4abdfc8b712b-10414794-images-thumbs&n=13',
 			name: 'Сбербанк',
 			bonuses: 4,
 		},

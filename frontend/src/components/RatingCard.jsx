@@ -8,7 +8,7 @@ const RatingCard = ({ place, username, category, img_path }) => {
 				<p className='w-1/7'>{place}</p>
 				<div className='w-1/7'>
 					<img
-						className='h-full rounded-full'
+						className='h-10 rounded-full'
 						src={img_path != null ? img_path : 'https://placehold.co/50x50.png'}
 						alt=''
 					/>

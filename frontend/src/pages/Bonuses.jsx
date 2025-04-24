@@ -10,28 +10,28 @@ const Bonuses = () => {
 	const [isOpen, setIsOpen] = useState(false)
 	const events = [
 		{
-			name: 'бонус',
-			img_path: '',
+			name: 'Бесплатный кофе',
+			img_path:
+				'https://avatars.mds.yandex.net/i?id=f97579a7476564b471b2b13b6e3e6ae3_l-8269337-images-thumbs&n=13',
 		},
 		{
-			name: 'бонус',
-			img_path: '',
+			name: 'Украшение в подарок к покупке',
+			img_path:
+				'https://avatars.mds.yandex.net/i?id=afb86889d0376247d8b62676baaa7bcc_l-12473751-images-thumbs&n=13',
 		},
 		{
-			name: 'бонус',
-			img_path: '',
+			name: 'Скидка 20% в магазин Магнит',
+			img_path: 'https://cdn.100sp.ru/cache_pictures/1056727016/thumb400',
 		},
 		{
-			name: 'бонус',
-			img_path: '',
+			name: 'Скидка на кольца 10%',
+			img_path:
+				'https://avatars.mds.yandex.net/i?id=afb86889d0376247d8b62676baaa7bcc_l-12473751-images-thumbs&n=13',
 		},
+
 		{
-			name: 'бонус',
-			img_path: '',
-		},
-		{
-			name: 'бонус',
-			img_path: '',
+			name: 'Скидка 15% в магазин Мера',
+			img_path: 'https://cdn.100sp.ru/cache_pictures/1056727016/thumb400',
 		},
 	]
 
