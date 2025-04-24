@@ -37,12 +37,25 @@ const Partners = () => {
 				{/* Верхняя карточка */}
 				<div className='absolute top-18 left-1/2 transform -translate-x-1/2 w-5/7 z-10'>
 					<div className='flex flex-col overflow-hidden rounded-3xl shadow-md'>
-						<div className='flex justify-between items-center h-90 p-4 bg-white'></div>
+						<div className='flex flex-col justify-center items-center h-60 px-20 bg-white'>
+							<p className='text-gray-700 text-sm leading-relaxed'>
+								Партнёры проекта — это компании и организации, которые
+								поддерживают волонтёров, предоставляя им бонусы и привилегии.
+								Они помогают мотивировать участников, делая вклад в развитие
+								добровольчества и социальных инициатив.
+							</p>
+							<p className='text-gray-700 text-sm mt-2'>
+								Каждый партнёр может добавить свои уникальные бонусы, которые
+								волонтёры смогут получить в зависимости от своего уровня
+								активности. Система отслеживает использование бонусов через
+								QR-коды — всё просто и удобно!
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
 
-			<div className='flex flex-col gap-4 w-4/5 mx-auto mb-10 mt-60'>
+			<div className='flex flex-col gap-4 w-4/5 mx-auto mb-10 mt-25'>
 				{sortedList.map((user, index) => (
 					<motion.div
 						key={index}
