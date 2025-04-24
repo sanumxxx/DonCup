@@ -48,7 +48,7 @@ const Bonuses = () => {
 						<div className='flex flex-col gap-4 justify-between p-6 bg-white rounded-3xl'>
 							{/* Роль пользователя */}
 							{role === 1 ? (
-								<div className='bg-gray-100 rounded-xl p-4 text-sm text-black'>
+								<div className=' rounded-xl p-4 text-sm text-black'>
 									<h2 className='text-lg font-semibold text-[#22222E] mb-2'>
 										Как работают бонусы?
 									</h2>
@@ -69,15 +69,7 @@ const Bonuses = () => {
 								</div>
 							) : role === 2 ? (
 								<>
-									<div className='w-full flex justify-center'>
-										<button
-											onClick={handleClick}
-											className='relative rounded-lg h-10 px-3 transition-all overflow-hidden bg-[#7CDE84] text-white hover:shadow-lg hover:shadow-[#7CDE8475] active:bg-[#9ADEC2]'
-										>
-											Создать бонус
-										</button>
-									</div>
-									<div className='bg-gray-100 rounded-xl p-4 text-sm text-black'>
+									<div className=' rounded-xl p-4 text-sm text-black'>
 										<h2 className='text-lg font-semibold text-[#22222E] mb-2'>
 											Для кого создаются бонусы?
 										</h2>
@@ -95,6 +87,14 @@ const Bonuses = () => {
 											Бонусы можно создавать в любой момент, а система
 											автоматически отслеживает их использование.
 										</p>
+									</div>
+									<div className='w-full flex justify-center'>
+										<button
+											onClick={handleClick}
+											className='relative rounded-lg h-10 px-3 transition-all overflow-hidden bg-[#7CDE84] text-white hover:shadow-lg hover:shadow-[#7CDE8475] active:bg-[#9ADEC2]'
+										>
+											Создать бонус
+										</button>
 									</div>
 								</>
 							) : (
